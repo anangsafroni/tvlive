@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=TV Live | IGNSDK
+Exec=/usr/bin/ignsdk -p /opt/ignsdk/tvlive.ign
+Icon=/opt/ignsdk/tvlive.ign/icons/app.png
+Terminal=false
+Type=Application
+Categories=AudioVideo
