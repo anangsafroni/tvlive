@@ -1,0 +1,21 @@
+{
+  "config" : { 
+		"debug" : false,
+		"websecurity" : true,
+		"name" : "TV Live | IGNSDK"
+  },
+  "window" : { 
+		"transparent" : false, 
+		"noframe" : false, 
+		"fullscreen" : false,
+		"maximize" : false,
+		"width" : 690,
+		"height" : 600
+	},
+  "button" : [
+		"back",
+		"forward",
+		"stop",
+		"reload"
+	]
+}
