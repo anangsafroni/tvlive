@@ -1,5 +1,9 @@
 [Desktop Entry]
+<<<<<<< HEAD
 Name=TV Live 2.0 | IGNSDK
+=======
+Name=TV Live | IGNSDK
+>>>>>>> 364cb8698168c36eb6d057c90a450b7f232ab040
 Exec=/usr/bin/ignsdk -p /opt/ignsdk/tvlive.ign
 Icon=/opt/ignsdk/tvlive.ign/icons/app.png
 Terminal=false

@@ -2,15 +2,24 @@
   "config" : { 
 		"debug" : true,
 		"websecurity" : true,
+<<<<<<< HEAD
 		"name" : "TV Live 2.0 | IGNSDK"
+=======
+		"name" : "TV Live | IGNSDK"
+>>>>>>> 364cb8698168c36eb6d057c90a450b7f232ab040
   },
   "window" : { 
 		"transparent" : false, 
 		"noframe" : false, 
 		"fullscreen" : false,
 		"maximize" : false,
+<<<<<<< HEAD
 		"width" : 690,
 		"height" : 600
+=======
+		"width" : 650,
+		"height" : 420
+>>>>>>> 364cb8698168c36eb6d057c90a450b7f232ab040
 	},
   "button" : [
 		"back",

@@ -1,8 +1,15 @@
 %define name tvlive.ign
+<<<<<<< HEAD
 %define release 2
 %define version 2.0
 %define license MIT
 %define url http://anangsafroni.web.id
+=======
+%define release 1
+%define version 1.0
+%define license MIT
+%define url http://ignsdk.web.id
+>>>>>>> 364cb8698168c36eb6d057c90a450b7f232ab040
 %define group System Environment/Base
 
 Summary:IGOS Nusantara SDK Application
@@ -26,7 +33,10 @@ IGOS Nusantara SDK Application
 %install
 install -d -m 755 $RPM_BUILD_ROOT/opt/ignsdk/%{name}
 install -d -m 755 $RPM_BUILD_ROOT/opt/ignsdk/%{name}/icons
+<<<<<<< HEAD
 install -d -m 755 $RPM_BUILD_ROOT/opt/ignsdk/%{name}/ch
+=======
+>>>>>>> 364cb8698168c36eb6d057c90a450b7f232ab040
 install -d -m 755 $RPM_BUILD_ROOT/opt/ignsdk/%{name}/bin
 install -d -m 755 $RPM_BUILD_ROOT/usr/share/applications
 cp -rf ignsdk.json $RPM_BUILD_ROOT/opt/ignsdk/%{name}
@@ -34,7 +44,10 @@ cp -rf index.html $RPM_BUILD_ROOT/opt/ignsdk/%{name}
 cp -rf bin $RPM_BUILD_ROOT/opt/ignsdk/%{name}
 cp -rf icons/* $RPM_BUILD_ROOT/opt/ignsdk/%{name}/icons
 cp -rf menu/* $RPM_BUILD_ROOT/usr/share/applications
+<<<<<<< HEAD
 cp -rf ch/* $RPM_BUILD_ROOT/opt/ignsdk/%{name}/ch
+=======
+>>>>>>> 364cb8698168c36eb6d057c90a450b7f232ab040
 
 %clean
 rm -rf $RPM_BUILD_ROOT
